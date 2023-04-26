@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawTriangle", "DrawTriangle\DrawTriangle.csproj", "{838D1924-B708-488A-9449-373D4ED906F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawCircle", "DrawCircle\DrawCircle.csproj", "{6A336D1D-C179-46D9-B563-DAABC6127507}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{838D1924-B708-488A-9449-373D4ED906F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{838D1924-B708-488A-9449-373D4ED906F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{838D1924-B708-488A-9449-373D4ED906F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A336D1D-C179-46D9-B563-DAABC6127507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A336D1D-C179-46D9-B563-DAABC6127507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A336D1D-C179-46D9-B563-DAABC6127507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A336D1D-C179-46D9-B563-DAABC6127507}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

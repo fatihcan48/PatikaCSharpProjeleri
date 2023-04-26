@@ -1,4 +1,5 @@
-﻿using DrawTriangle;
+﻿using DrawCircle;
+using DrawTriangle;
 using FibonacciSeries;
 
 namespace ConsoleUI
@@ -11,7 +12,9 @@ namespace ConsoleUI
 
             // Triangle.DrawTriangle(15);
 
+            // Circle.DrawCircle(10);
 
+            
 
             Console.ReadKey();
 
