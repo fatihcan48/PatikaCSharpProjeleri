@@ -1,4 +1,5 @@
-﻿using DrawCircle;
+﻿using Algoritma;
+using DrawCircle;
 using DrawTriangle;
 using FibonacciSeries;
 
@@ -14,7 +15,7 @@ namespace ConsoleUI
 
             // Circle.DrawCircle(10);
 
-            
+            // AlgoritmaYap.RemoveByIndex();
 
             Console.ReadKey();
 
