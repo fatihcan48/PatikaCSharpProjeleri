@@ -2,6 +2,7 @@
 using DrawCircle;
 using DrawTriangle;
 using FibonacciSeries;
+using ReverseToText;
 
 namespace ConsoleUI
 {
@@ -17,7 +18,7 @@ namespace ConsoleUI
 
             // AlgoritmaYap.RemoveByIndex();
 
-            Console.ReadKey();
+            Reverse.ReverseAPattern();
 
         }
 

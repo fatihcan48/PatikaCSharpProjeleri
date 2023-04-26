@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawCircle", "DrawCircle\Dr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algoritma", "Algoritma\Algoritma.csproj", "{2F192477-CAC1-4B4D-865D-93085AC469EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseToText", "ReverseToText\ReverseToText.csproj", "{67C96FC2-45AA-4C02-9FC5-5E25227F2EB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2F192477-CAC1-4B4D-865D-93085AC469EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F192477-CAC1-4B4D-865D-93085AC469EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F192477-CAC1-4B4D-865D-93085AC469EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C96FC2-45AA-4C02-9FC5-5E25227F2EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C96FC2-45AA-4C02-9FC5-5E25227F2EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C96FC2-45AA-4C02-9FC5-5E25227F2EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C96FC2-45AA-4C02-9FC5-5E25227F2EB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
