@@ -1,4 +1,5 @@
-﻿using FibonacciSeries;
+﻿using DrawTriangle;
+using FibonacciSeries;
 
 namespace ConsoleUI
 {
@@ -6,11 +7,20 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
+            // FiboAverage();
 
-            int [] fibo = Fibonacci.BuildFibo(4, 10);
+            // Triangle.DrawTriangle(15);
+
+
+
+            Console.ReadKey();
+
+        }
+
+        private static void FiboAverage()
+        {
+            int[] fibo = Fibonacci.BuildFibo(4, 10);
             Fibonacci.AverageFibo(fibo);
-
-            Console.ReadKey();  
         }
     }
 }
