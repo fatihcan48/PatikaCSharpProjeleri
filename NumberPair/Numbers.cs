@@ -2,6 +2,7 @@
 {
     public static class Numbers
     {
+
         public static void NumberPairs()
         {
             Console.Write("Please enter number pairs : ");
@@ -33,26 +34,27 @@
                 Console.Write(item + " ");
             }
         }
-
         public static void NumberAbsAndPow()
         {
             Console.Write("Please enter numbers between 0 and 100 : ");
-            string input = Console.ReadLine();
+            string inputs = Console.ReadLine();
+            Console.Write("Please enter a number between 0 and 100 to compare other numbers : ");
+            int input = int.Parse(Console.ReadLine());
 
-            string[] numberArray = input.Split(" ");
+            string[] numberArray = inputs.Split(" ");
             double smallerSum = 0;
             double biggerSum = 0;
 
             foreach (var item in numberArray)
             {
-                if (int.Parse(item) <= 67)
+                if (int.Parse(item) <= input)
                 {
-                    int number = 67 - int.Parse(item);
+                    int number = input - int.Parse(item);
                     smallerSum = smallerSum + number;
                 }
                 else
                 {
-                    int absNumber = Math.Abs(67 - int.Parse(item));
+                    int absNumber = Math.Abs(input - int.Parse(item));
                     double number = Math.Pow(absNumber, 2);
                     biggerSum += number;
                 }
