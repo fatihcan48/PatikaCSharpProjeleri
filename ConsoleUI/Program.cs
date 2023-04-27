@@ -2,6 +2,7 @@
 using DrawCircle;
 using DrawTriangle;
 using FibonacciSeries;
+using NumberPair;
 using ReverseToText;
 using SekilselHesaplar;
 
@@ -21,9 +22,13 @@ namespace ConsoleUI
 
             // Reverse.ReverseAPattern();
 
-            CalcSelection();
+            // CalcSelection();
+
+            Numbers.NumberPairs();
 
         }
+
+        
 
         private static void CalcSelection()
         {
