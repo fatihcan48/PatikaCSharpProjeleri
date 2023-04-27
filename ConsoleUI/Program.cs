@@ -21,10 +21,11 @@ namespace ConsoleUI
             // Numbers.NumberPairs();
             // Numbers.NumberAbsAndPow();
             // AlgoritmaYap.ChangeFirstAndLastChars();
+            // AlgoritmaYap.YanyanaOlanSessizHarfleriBul();
 
         }
 
-
+        
         private static void CalcSelection()
         {
             Console.Write("Please write name of shape for calculation : ");

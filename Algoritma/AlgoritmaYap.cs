@@ -44,5 +44,34 @@
             Console.WriteLine($"Yeni metin: {output}");
         }
 
+        public static void YanyanaOlanSessizHarfleriBul()
+        {
+            Console.Write("Lütfen ekrana aralarında boşluk bulunan kelimeler giriniz : ");
+            string inputs = Console.ReadLine();
+
+            string[] words = inputs.Split(' ');
+
+            string sessizHarfler = "wxzyvtşsrpnrmlkhjğgdçcb";
+            bool[] result = new bool[words.Length];
+
+            for (int i = 0; i < words.Length; i++)
+            {
+                for (int j = 0; j < words[i].Length - 1; j++)
+                {
+                    if (sessizHarfler.Contains(words[i][j]) && sessizHarfler.Contains(words[i][j + 1]))
+                    {
+                        result[i] = true;
+                        break;
+                    }
+                    result[i] = false;
+                }
+
+            }
+
+            string output = string.Join(" ", result);
+            Console.WriteLine("Output : " + output);
+        }
+
+
     }
 }
