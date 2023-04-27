@@ -13,22 +13,16 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             // FiboAverage();
-
             // Triangle.DrawTriangle(15);
-
             // Circle.DrawCircle(10);
-
             // AlgoritmaYap.RemoveByIndex();
-
             // Reverse.ReverseAPattern();
-
             // CalcSelection();
-
-            Numbers.NumberPairs();
+            // Numbers.NumberPairs();
+            // Numbers.NumberAbsAndPow();
 
         }
 
-        
 
         private static void CalcSelection()
         {

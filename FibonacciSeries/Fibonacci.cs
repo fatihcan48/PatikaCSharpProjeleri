@@ -27,14 +27,14 @@ namespace FibonacciSeries
 
         public static void AverageFibo(int[] fibo)
         {
-            int sum = 0;    
+            int sum = 0;
 
             for (int i = 0; i < fibo.Length; i++)
             {
                 sum = sum + fibo[i];
             }
 
-            double average = sum/fibo.Length;
+            double average = sum / fibo.Length;
 
             Console.WriteLine("Vermiş oladuğunuz fibonacci serisinin ortalaması: {0}", average);
         }

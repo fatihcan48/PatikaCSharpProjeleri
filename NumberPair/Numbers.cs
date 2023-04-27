@@ -33,5 +33,32 @@
                 Console.Write(item + " ");
             }
         }
+
+        public static void NumberAbsAndPow()
+        {
+            Console.Write("Please enter numbers between 0 and 100 : ");
+            string input = Console.ReadLine();
+
+            string[] numberArray = input.Split(" ");
+            double smallerSum = 0;
+            double biggerSum = 0;
+
+            foreach (var item in numberArray)
+            {
+                if (int.Parse(item) <= 67)
+                {
+                    int number = 67 - int.Parse(item);
+                    smallerSum = smallerSum + number;
+                }
+                else
+                {
+                    int absNumber = Math.Abs(67 - int.Parse(item));
+                    double number = Math.Pow(absNumber, 2);
+                    biggerSum += number;
+                }
+            }
+
+            Console.Write("Output : {0} {1}", smallerSum, biggerSum);
+        }
     }
 }
