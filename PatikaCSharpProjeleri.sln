@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSeries", "FibonacciSeries\FibonacciSeries.csproj", "{37F03949-011B-427D-A23B-E31878D13044}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciSeries", "FibonacciSeries\FibonacciSeries.csproj", "{37F03949-011B-427D-A23B-E31878D13044}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{C346DE6B-4972-4A77-841D-09049E2DA37B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{C346DE6B-4972-4A77-841D-09049E2DA37B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawTriangle", "DrawTriangle\DrawTriangle.csproj", "{838D1924-B708-488A-9449-373D4ED906F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrawTriangle", "DrawTriangle\DrawTriangle.csproj", "{838D1924-B708-488A-9449-373D4ED906F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawCircle", "DrawCircle\DrawCircle.csproj", "{6A336D1D-C179-46D9-B563-DAABC6127507}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrawCircle", "DrawCircle\DrawCircle.csproj", "{6A336D1D-C179-46D9-B563-DAABC6127507}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algoritma", "Algoritma\Algoritma.csproj", "{2F192477-CAC1-4B4D-865D-93085AC469EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algoritma", "Algoritma\Algoritma.csproj", "{2F192477-CAC1-4B4D-865D-93085AC469EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseToText", "ReverseToText\ReverseToText.csproj", "{67C96FC2-45AA-4C02-9FC5-5E25227F2EB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseToText", "ReverseToText\ReverseToText.csproj", "{67C96FC2-45AA-4C02-9FC5-5E25227F2EB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SekilselHesaplar", "SekilselHesaplar\SekilselHesaplar.csproj", "{7E77051E-BD5D-4900-8338-67A874A24E7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{67C96FC2-45AA-4C02-9FC5-5E25227F2EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67C96FC2-45AA-4C02-9FC5-5E25227F2EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67C96FC2-45AA-4C02-9FC5-5E25227F2EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E77051E-BD5D-4900-8338-67A874A24E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E77051E-BD5D-4900-8338-67A874A24E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E77051E-BD5D-4900-8338-67A874A24E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E77051E-BD5D-4900-8338-67A874A24E7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

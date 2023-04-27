@@ -3,6 +3,7 @@ using DrawCircle;
 using DrawTriangle;
 using FibonacciSeries;
 using ReverseToText;
+using SekilselHesaplar;
 
 namespace ConsoleUI
 {
@@ -18,8 +19,44 @@ namespace ConsoleUI
 
             // AlgoritmaYap.RemoveByIndex();
 
-            Reverse.ReverseAPattern();
+            // Reverse.ReverseAPattern();
 
+            CalcSelection();
+
+        }
+
+        private static void CalcSelection()
+        {
+            Console.Write("Please write name of shape for calculation : ");
+            string shape = Console.ReadLine();
+            Console.Write("Please write calculation type : ");
+            string calcType = Console.ReadLine();
+            Console.WriteLine("**********************************************");
+
+            var calcApp = GetShapeType(shape);
+
+            ICalculate calculate = calcApp;
+
+            if (calcType == "field")
+                calculate.CalculateField();
+            else if (calcType == "perimeter")
+                calculate.CalculatePerimeter();
+            else
+                Console.WriteLine("Please enter a valid type!");
+        }
+        private static ICalculate GetShapeType(string shape)
+        {
+            switch (shape)
+            {
+                case "rectangle":
+                    return new Rectangle();
+                case "square":
+                    return new Square();
+                case "circle":
+                    return new Circle();
+                default: 
+                    throw new Exception("Please enter a valid shape name");
+            }
         }
 
         private static void FiboAverage()

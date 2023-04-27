@@ -1,6 +1,6 @@
 ﻿namespace DrawCircle
 {
-    public static class Circle
+    public static class DrwCircle
     {
         public static void DrawCircle(int radius)
         {

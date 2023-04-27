@@ -13,6 +13,9 @@
     <ProjectReference Include="..\DrawTriangle\DrawTriangle.csproj" />
     <ProjectReference Include="..\FibonacciSeries\FibonacciSeries.csproj" />
     <ProjectReference Include="..\ReverseToText\ReverseToText.csproj" />
+    <ProjectReference Include="..\SekilselHesaplar\SekilselHesaplar.csproj" />
+    <ProjectReference Include="..\SekilselHesaplar\ShapeCalculate.csproj" />
+    <ProjectReference Include="..\ShapeCalculate\SekilselHesaplar.csproj" />
   </ItemGroup>
 
 </Project>
