@@ -20,6 +20,7 @@ namespace ConsoleUI
             // CalcSelection();
             // Numbers.NumberPairs();
             // Numbers.NumberAbsAndPow();
+            // AlgoritmaYap.ChangeFirstAndLastChars();
 
         }
 
