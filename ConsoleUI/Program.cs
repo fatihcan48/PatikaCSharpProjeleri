@@ -8,7 +8,7 @@ using SekilselHesaplar;
 
 namespace ConsoleUI
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
