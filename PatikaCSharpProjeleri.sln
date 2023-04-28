@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SekilselHesaplar", "Sekilse
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberPair", "NumberPair\NumberPair.csproj", "{8EB1D9F9-EFFF-41BF-8380-E8C910A7DA2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VotingApp", "VotingApp\VotingApp.csproj", "{AAD07EF4-6C58-43C1-9DA0-150825DEEBFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VotingApp", "VotingApp\VotingApp.csproj", "{AAD07EF4-6C58-43C1-9DA0-150825DEEBFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMApp", "ATMApp\ATMApp.csproj", "{B9780FB8-48A8-4698-98A5-EAC3A36E07D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{AAD07EF4-6C58-43C1-9DA0-150825DEEBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAD07EF4-6C58-43C1-9DA0-150825DEEBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAD07EF4-6C58-43C1-9DA0-150825DEEBFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9780FB8-48A8-4698-98A5-EAC3A36E07D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9780FB8-48A8-4698-98A5-EAC3A36E07D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9780FB8-48A8-4698-98A5-EAC3A36E07D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9780FB8-48A8-4698-98A5-EAC3A36E07D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
