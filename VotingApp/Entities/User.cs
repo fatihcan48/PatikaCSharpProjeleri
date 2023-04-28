@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VotingApp.Entities
 {
-    public class User : IEntity
+    public class User 
     {
         public int Id { get; set; }
         public string UserName { get; set; }

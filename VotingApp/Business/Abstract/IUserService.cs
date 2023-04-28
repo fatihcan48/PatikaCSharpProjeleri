@@ -13,5 +13,6 @@ namespace VotingApp.Business.Abstract
         User GetByUserName(string userName);
         void Add(User user);
         void Delete(User user);
+        User CheckUserNameAndAdd();
     }
 }

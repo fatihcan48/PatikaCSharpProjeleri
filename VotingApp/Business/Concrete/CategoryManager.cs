@@ -32,7 +32,7 @@ namespace VotingApp.Business.Concrete
             _categoryDal.Delete(category);
         }
 
-        public Category Get(int id)
+        public Category GetById(int id)
         {
             if (_categoryDal.GetById(id)==null)
             {

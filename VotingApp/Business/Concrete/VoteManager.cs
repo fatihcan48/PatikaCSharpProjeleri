@@ -12,24 +12,21 @@ namespace VotingApp.Business.Concrete
     public class VoteManager : IVoteService
     {
         private IVoteDal _voteDal;
-        private IUserDal _userDal;
-        private ICategoryDal _categoryDal;
+        private ICategoryService _categoryService;
 
-        public VoteManager(IVoteDal voteDal, IUserDal userDal, ICategoryDal categoryDal)
+        public VoteManager(IVoteDal voteDal, ICategoryService categoryService)
         {
             _voteDal = voteDal;
-            _userDal = userDal;
-            _categoryDal = categoryDal;
+            _categoryService = categoryService;
         }
 
         public void Add(User user, int categoryId)
         {
             Vote vote = new Vote();
-            var category = _categoryDal.GetById(categoryId);
+            var category = _categoryService.GetById(categoryId);
             vote.Id = GetAll().Count() + 1;
             vote.User = user;
             vote.Category = category;
-           
             _voteDal.Add(vote);
         }
 
@@ -52,5 +49,7 @@ namespace VotingApp.Business.Concrete
         {
             return _voteDal.GetByUserName(userName);
         }
+
+       
     }
 }

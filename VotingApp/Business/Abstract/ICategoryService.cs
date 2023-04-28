@@ -10,7 +10,7 @@ namespace VotingApp.Business.Abstract
     public interface ICategoryService
     {
         List<Category> GetAll();
-        Category Get(int id);
+        Category GetById(int id);
         void Add(Category category);
         void Delete(Category category);
     }
