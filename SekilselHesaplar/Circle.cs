@@ -12,19 +12,19 @@ namespace SekilselHesaplar
         public void CalculateField()
         {
             Console.Write("Please write radius of Circle : ");
-            int radius = int.Parse(Console.ReadLine());
+            var radius = double.Parse(Console.ReadLine());
 
             var field = pi*radius*radius;
-            Console.WriteLine("Field of shape : " + field);
+            Console.WriteLine("Field of shape : {0:.00}" ,field);
         }
 
         public void CalculatePerimeter()
         {
             Console.Write("Please write radius of Circle : ");
-            int radius = int.Parse(Console.ReadLine());
+            var radius = double.Parse(Console.ReadLine());
 
             var perimeter = 2*pi*radius;
-            Console.WriteLine("Perimeter of shape : " + perimeter);
+            Console.WriteLine("Perimeter of shape : {0:.00}" ,perimeter);
         }
 
     }
