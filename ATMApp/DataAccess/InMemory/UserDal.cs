@@ -17,16 +17,21 @@ namespace ATMApp.DataAccess.InMemory
             _users = new List<User>()
             {
                 new User
-                {   Id = 1, FirstName = "Fatih", LastName="Can" , AccountNo = "10000001",
+                {
+                    Id = 1, FirstName = "null", LastName = "null", AccountNo = "null",
+                    Password="null", AccountBalance = 0
+                },
+                new User
+                {   Id = 2, FirstName = "Fatih", LastName="Can" , AccountNo = "10000001",
                     Password ="1234", AccountBalance=25000
                 },
 
                 new User{
-                    Id = 1, FirstName = "Yusuf", LastName="Asaf" , AccountNo = "10000002",
+                    Id = 3, FirstName = "Yusuf", LastName="Asaf" , AccountNo = "10000002",
                     Password ="4321", AccountBalance=45000
                 },
                 new User{
-                    Id = 1, FirstName = "Ahmet", LastName="Can" ,  AccountNo = "10000003",
+                    Id = 4, FirstName = "Ahmet", LastName="Can" ,  AccountNo = "10000003",
                     Password ="1111", AccountBalance=5000
                 },
             };

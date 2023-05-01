@@ -23,7 +23,7 @@ namespace ConsoleUI
             // AlgoritmaYap.ChangeFirstAndLastChars();
             // AlgoritmaYap.YanyanaOlanSessizHarfleriBul();
 
-
+            
         }
 
         
