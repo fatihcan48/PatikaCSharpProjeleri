@@ -13,12 +13,18 @@ namespace QRCodeBuilder
             // QRCode Okuma ;
             Barcode.ReadBarcodeImages(path);
 
-            // Barcode üretimi ;
-            var path2 = Barcode.CreateQRCodeOrBarcode("Barcode.jpeg", @"https://github.com/fatihcan48/PatikaCSharpProjeleri",
-                BarcodeWriterEncoding.Code128);
+            // Farklı barcode tipleri ;
 
-            // Barcode Okuma ;
-            Barcode.ReadBarcodeImages(path);
+            var path2 = Barcode.CreateQRCodeOrBarcode("Barcode.jpeg", @"https://github.com/fatihcan48/PatikaCSharpProjeleri/tree/master/QRCodeBuilder",
+                BarcodeWriterEncoding.Aztec);
+
+            Barcode.ReadBarcodeImages(path2);
+
+            var path3 = Barcode.CreateQRCodeOrBarcode("Welcome.jpeg", "Barkod olusturucuya hosgeldiniz!",
+               BarcodeWriterEncoding.Code128);
+
+            Barcode.ReadBarcodeImages(path3);
+
 
             Console.ReadKey();
         }
@@ -33,7 +39,7 @@ namespace QRCodeBuilder
 
             var path = @"C:\Users\fatih\Desktop\Kodluyoruz\PatikaCSharpProjeleri\QRCodeBuilder\bin\Debug\net6.0\QRCodesAndBarcodes\";
 
-            myBarcode.ResizeTo(400, 200);
+            myBarcode.ResizeTo(1000, 400);
 
             myBarcode.SaveAsImage(path+fileName);
 
