@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberPair", "NumberPair\Nu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VotingApp", "VotingApp\VotingApp.csproj", "{AAD07EF4-6C58-43C1-9DA0-150825DEEBFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMApp", "ATMApp\ATMApp.csproj", "{B9780FB8-48A8-4698-98A5-EAC3A36E07D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATMApp", "ATMApp\ATMApp.csproj", "{B9780FB8-48A8-4698-98A5-EAC3A36E07D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRCodeBuilder", "QRCodeBuilder\QRCodeBuilder.csproj", "{8643E09A-D607-4810-94EB-984256708252}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{B9780FB8-48A8-4698-98A5-EAC3A36E07D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9780FB8-48A8-4698-98A5-EAC3A36E07D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9780FB8-48A8-4698-98A5-EAC3A36E07D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8643E09A-D607-4810-94EB-984256708252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8643E09A-D607-4810-94EB-984256708252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8643E09A-D607-4810-94EB-984256708252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8643E09A-D607-4810-94EB-984256708252}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
